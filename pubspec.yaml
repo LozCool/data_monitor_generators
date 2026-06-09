@@ -1,5 +1,6 @@
 name: data_monitor_generators
 description: "A package that encapsulates build Generators for the data_monitor package."
+repository: https://github.com/LozCool/data_monitor_generators
 version: 1.0.0
 
 environment:
