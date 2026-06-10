@@ -28,7 +28,7 @@ Please see the example in `data_monitor` for usage.
 ## Usage
 
 Include the following in your Flutter application's `pubspec.yaml`
-as a developer dependencies:
+as developer dependencies:
 
 ```
 dev_dependencies:

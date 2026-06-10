@@ -1,3 +1,5 @@
-## 1.0.0
+## 1.0.4
 
-Initial release.
+Updated documentation.
+
+Bumped version to 1.0.4
