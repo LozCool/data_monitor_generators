@@ -1,3 +1,5 @@
-## 1.0.8
+## 1.0.10
 
-Fixed build.yaml package reference.
+Added topics for pub.dev into pubspec.yaml:
+  codegen 
+  state-management
