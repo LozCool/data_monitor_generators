@@ -1,5 +1,3 @@
-## 1.0.4
+## 1.0.5
 
-Updated documentation.
-
-Bumped version to 1.0.4
+Added build.yaml for generators.
