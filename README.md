@@ -19,7 +19,7 @@ This package is in beta and still being tested. Please do not use it yet.
 
 This package should be used with the `data_monitor` package to
 allow Flutter projects to generate a concrete framework from their
-`@annotations` from elsewhere in their source tree.
+`@annotations` found elsewhere in their source tree.
 
 ## Getting started
 
@@ -32,7 +32,7 @@ as developer dependencies:
 
 ```
 dev_dependencies:
-  build_runner:
+  build_runner: ^2.15.0
   data_monitor_generators: ^1.0.0
 ```
 
