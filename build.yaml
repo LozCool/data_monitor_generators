@@ -7,7 +7,7 @@ targets:
 builders:
   generators:
     target: ':generators' # Generator name
-    import: 'package:generators/generators.dart'
+    import: 'package:data_monitor_generators/data_monitor_generators.dart'
     builder_factories: ['generateBuilders'] # Builder name(BuilderOption) this is a definition
     build_extensions: { '.dart': ['data_monitor.g.part'] }
     auto_apply: dependents

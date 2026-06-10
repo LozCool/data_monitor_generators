@@ -1,3 +1,3 @@
-## 1.0.7
+## 1.0.8
 
-Updated documentation.
+Fixed build.yaml package reference.
