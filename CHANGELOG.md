@@ -1,5 +1,3 @@
-## 1.0.10
+## 1.1.0
 
-Added topics for pub.dev into pubspec.yaml:
-  codegen 
-  state-management
+Removed beta release warning and promoted to v1.1.0

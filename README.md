@@ -11,10 +11,6 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
 
-## WARNING:
-
-This package is in beta and still being tested. Please do not use it yet.
-
 ## Details
 
 This package should be used with the `data_monitor` package to
