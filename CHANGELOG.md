@@ -1,3 +1,5 @@
-## 1.1.0
+## 1.1.1
 
-Removed beta release warning and promoted to v1.1.0
+With modified example.md
+
+Matches data_monitor version v1.1.0
