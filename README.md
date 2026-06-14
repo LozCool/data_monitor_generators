@@ -29,7 +29,7 @@ as developer dependencies:
 ```
 dev_dependencies:
   build_runner: ^2.15.0
-  data_monitor_generators: ^1.0.0
+  data_monitor_generators: ^1.1.2
 ```
 
 Then run (in a console) the following before you build / run your
