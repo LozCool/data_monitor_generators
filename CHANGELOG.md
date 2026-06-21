@@ -1,3 +1,7 @@
+## 1.1.4
+
+Fixed incorrect $ class name in generated code.
+
 ## 1.1.3
 
 Now emits correct code in '.g.dart' files to cater for new
