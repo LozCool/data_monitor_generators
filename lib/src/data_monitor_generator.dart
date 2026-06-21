@@ -24,7 +24,7 @@ class DataMonitorGenerator extends GeneratorForAnnotation<DataMonitor> {
     if (element is ClassElement) {
       await visitor.visitClass(element);
 
-      buffer.writeln('mixin _\$${visitor.className} on ${visitor.className} {');
+      buffer.writeln('mixin _\$${visitor.className.replaceFirst('_', '')} on ${visitor.className} {');
 
       for (MapEntry<String, FieldContainer> field in visitor.fields.entries) {
         String name = field.key;
