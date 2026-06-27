@@ -4,7 +4,7 @@ import 'package:analyzer/dart/element/type.dart';
 import 'package:build/build.dart';
 import 'package:source_gen/source_gen.dart';
 
-import 'package:data_monitor/annotations.dart';
+import 'package:data_monitor/data_monitor.dart';
 
 /// The `ClassVisitor` class is called by `DataMonitorGenerator` when the
 /// generators are invoked by the 'build_runner' command.

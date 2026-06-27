@@ -1,3 +1,7 @@
+## 2.0.0
+
+Version is now in line with data_monitor package (v2.0.0).
+
 ## 1.1.4
 
 Fixed incorrect $ class name in generated code.

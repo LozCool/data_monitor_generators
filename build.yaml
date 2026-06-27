@@ -1,16 +1,14 @@
 targets:
   $default:
     builders:
-      generators|annotations: # generators|annotations: Refers to the simple_generator builder when dealing with files annotated with annotations.
+      source_gen|combining_builder:
         enabled: true
 
 builders:
-  generators:
-    target: ':generators' # Generator name
+  data_monitor:
     import: 'package:data_monitor_generators/data_monitor_generators.dart'
-    builder_factories: ['generateBuilders'] # Builder name(BuilderOption) this is a definition
+    builder_factories: [ 'generateBuilders' ]
     build_extensions: { '.dart': ['data_monitor.g.part'] }
     auto_apply: dependents
     build_to: cache
-    applies_builders: ['source_gen|combining_builder']
-    
+    applies_builders: [ 'source_gen|combining_builder' ]
